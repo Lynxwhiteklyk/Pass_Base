@@ -10,8 +10,8 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________________________
 INSTALL and LAUNCH the program for Linux:
 __________________________________________________________________________________________________________________________________
-        $ git clone https://github.com/Lynxwhiteklyk/Pass_Base.git
+        git clone https://github.com/Lynxwhiteklyk/Pass_Base.git
 
-        $ cd Pass_Base
+        cd Pass_Base
 
-        $ bash Pass_Base.sh     
+        bash Pass_Base.sh     

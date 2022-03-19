@@ -8,10 +8,10 @@ ________________________________________________________________________________
         RAM : 8 GB DDR3
         Graphics card : 2 GB Nvidia  
 _______________________________________________________________________________________________________________________________
-INSTALL and LAUNCH the program:
+INSTALL and LAUNCH the program for Linux:
 __________________________________________________________________________________________________________________________________
-$ git clone https://github.com/Lynxwhiteklyk/Pass_Base.gi
+        $ git clone https://github.com/Lynxwhiteklyk/Pass_Base.gi
 
-$ cd Pass_Base
+        $ cd Pass_Base
 
-$ bash Pass_Base.sh     
+        $ bash Pass_Base.sh     

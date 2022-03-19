@@ -193,12 +193,12 @@ while true; do
             sleep 2
             clear
 #password generation logic numbers...
-            for (( i=0; i <= 99999999; i++ ))
+            for (( i=0; i <= 100000000; i++ ))
             do
             echo "$i" | tee -a passwords/pass_base_logic_numbers.txt
             done
 #password generation random...
-            for run in {1..1000000}; do
+            for run in {1..100000000}; do
             SYMBOLS=""
             for symbol in {A..Z} {a..z} {0..9}; do SYMBOLS=$SYMBOLS$symbol; done
             SYMBOLS=SYMBOLS'ABSDEFGHIJKLMNOPQRSTUVWXYZabsdefghijklmnopqrstuvwxyz0123456789'

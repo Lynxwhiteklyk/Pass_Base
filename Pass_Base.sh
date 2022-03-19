@@ -210,6 +210,7 @@ while true; do
             PASSWORD=$PASSWORD${SYMBOLS:$(expr $RANDOM % ${#SYMBOLS})}
             done
             echo $PASSWORD | tee -a passwords/pass_base_random.txt
+            echo "Application passwords are stored in the passwords folder in the program directory"
             done; break;;
         [Nn]* ) 
             clear
